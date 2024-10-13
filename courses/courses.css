@@ -1,0 +1,30 @@
+.course-name {
+  font-family: fantasy;
+  font-size: 30px;
+}
+.card-body {
+  height: 250px;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
+.courses-grid {
+  margin: 50px 0px;
+}
+.image-courses {
+  height: 200px;
+}
+.image-courses > img {
+  height: 100%;
+}
+.button-enroll {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  overflow: auto;
+  scrollbar-width: none;
+}
+.card-body::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
